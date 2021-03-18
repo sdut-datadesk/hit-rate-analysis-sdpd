@@ -151,7 +151,7 @@ reason2 <- reason %>%
   summarise(reason_for_stop_detail = paste(reason_for_stop_detail, collapse = "|"))
 
 # Upon inspection, no other columns contain multiple (different) entries
-## Keep only disctinct rows for each id to merge with reason2
+## Keep only distinct rows for each id to merge with reason2
 reason3 <- reason[!duplicated(reason$id),]
 
 # Remove reason_for_stop_detail from reason3 for merge
@@ -205,7 +205,7 @@ search_basis2 <- search_basis %>%
   summarise(basis_for_search = paste(basis_for_search, collapse = "|"))
 
 # Upon inspection, no other columns contain multiple (different) entries
-## Keep only disctinct rows for each id to merge with search_basis2
+## Keep only distinct rows for each id to merge with search_basis2
 search_basis3 <- search_basis[!duplicated(search_basis$id),]
 
 # Remove orig basis_for_search column
@@ -1162,7 +1162,7 @@ syr_disc %>%
 discretions <- master %>% 
   filter(discretionary == 1)
 
-# race breakdown of people invovled in discretionary searches
+# race breakdown of people involved in discretionary searches
 discretions %>% 
   count(race_condensed) %>% 
   mutate((prop = n / sum(n))*100) %>% 
@@ -1232,7 +1232,7 @@ syr_disc2 %>%
 consent <- master %>% 
   filter(search_basis == "Consent given")
 
-# Race breakdown of people invovled in consent searches
+# Race breakdown of people involved in consent searches
 consent %>% 
   count(race_condensed) %>% 
   mutate((prop = n / sum(n))*100) %>% 
