@@ -5,7 +5,7 @@ This repository contains data and code for the analysis [reported and published]
 
 ### About
 
-The Racial and Identity Profiling Act of 2015 (RIPA) requires nearly all California law enforcement agencies to submit demographic data on all detentions and searches. The Union-Tribune obtained in January stop data from the San Diego County Sheriff's Department under the California Public Records Act.
+The Racial and Identity Profiling Act of 2015 (RIPA) requires nearly all California law enforcement agencies to submit demographic data on all detentions and searches. The Union-Tribune obtained in January stop data from the San Diego Police Department.
 
 The Union-Tribune collected this data to analyze stops conducted by the San Diego Police Department. In particular, the code calculates hit rates -- or search yield rates -- which show how many searches resulted in officers finding contraband.
 
