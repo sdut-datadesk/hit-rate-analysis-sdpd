@@ -7,7 +7,7 @@ This repository contains data and code for the analysis [reported and published]
 
 The Racial and Identity Profiling Act of 2015 (RIPA) requires nearly all California law enforcement agencies to submit demographic data on all detentions and searches. The Union-Tribune obtained in January stop data from the San Diego Police Department.
 
-The Union-Tribune collected this data to analyze stops conducted by the San Diego Police Department. In particular, the code calculates hit rates -- or search yield rates -- which show how many searches resulted in officers finding contraband.
+The Union-Tribune collected this data to analyze stops conducted by the department. In particular, the code calculates hit rates -- or search yield rates -- which show how many searches resulted in officers finding contraband.
 
 When analyzing the reason for searches, criminal justice experts often categorize the basis or reason for a search into two groups: discretionary and non-discretionary. The code also analyzes trends in discretionary and non-discretionary searches.
 
@@ -17,7 +17,7 @@ Non-discretionary searches are when a search is required by law, such as when th
 
 ### Methodology / Notes
 
-The San Diego Police Department data tables contain all pedestrian and traffic stops from July 2018 through December 2020. The original data tables are compiled in nine, .csv files that are available for download on the [city's data portal website](https://data.sandiego.gov/datasets/police-ripa-stops/).
+The San Diego Police Department data tables contain all pedestrian and traffic stops from July 2018 through December 2020. The original data tables are compiled in .csv files, available for download on the [city's data portal website](https://data.sandiego.gov/datasets/police-ripa-stops/).
 
 Since more than one individual can be involved a stop (officers are required to record the ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race of each person involved, which is the same technique used by RIPA officials.
 
@@ -26,6 +26,8 @@ In some circumstances, officers list more than one perceived race for an individ
 Individuals who were perceived as Hispanic and any other race, were included in Hispanic totals. Individuals perceived as more than one race were categorized as those with two or more race. The remaining race categories were left the same.
 
 There can be more than one reason for a search to take place. If both a non-discretionary and discretionary reason was listed, the Union-Tribune categorized the search as non-discretionary, since the search would take place, regardless of other circumstances.
+
+A total of 15 stops were identified as duplicates in SDPD data and were removed from the analysis.
 
 ### The SDUT repository contains the following:
 
