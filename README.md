@@ -21,7 +21,7 @@ The remaining search reasons were considered discretionary to some degree, meani
 
 The San Diego Police Department data tables contain all pedestrian and traffic stops from July 2018 through December 2020. The original data tables are compiled in .csv files, available for download on the [city's data portal website](https://data.sandiego.gov/datasets/police-ripa-stops/).
 
-Since more than one individual can be involved a stop (officers are required to record the race/ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race/ethnicity of each person involved, which is the same technique used by RIPA officials.
+Since more than one individual can be involved in a stop (officers are required to record the race/ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race/ethnicity of each person involved, which is the same technique used by RIPA officials.
 
 In some circumstances, officers list more than one perceived race for an individual involved in traffic stops. 
 
